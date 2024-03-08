@@ -1,0 +1,81 @@
+.tangerine-regular h
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jetbrains-mono{
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tangerine-bold#lastname{
+	font-weight: 1000;
+	font-size: 80px;
+	color: green;
+}
+
+.header-container{
+	display: flex;
+	border: 2px solid;
+	justify-content: center;
+	margin: 8px;
+	flex-direction: row;
+}
+
+#image{
+	display:flex;
+	border: 2px solid;
+	margin: 8px;
+	flex: 1
+}
+.header-item{
+	display:flex;
+	flex: 2;	
+	margin: 8px;
+}
+
+
+div{
+	margin-top: 170px;
+	margin-left: 20px;
+	margin-bottom:170px;
+	text-align: justify;
+}
+
+body{
+	background-color: #38343c;
+}
+
+h1{
+	font-size: 78px;
+	color: #b4b45c;
+}
+
+h2{
+	font-size: 50px;
+	color: #a24250;
+}
+
+h3{
+	font-size: 40px;
+	color:#d44bd3;
+}
+#byline{
+	margin-right: 500px;
+}
+#desc{
+	color: #a24250;
+}
+
+a{
+	color:#00ff00
+}
