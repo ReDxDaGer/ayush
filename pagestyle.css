@@ -1,4 +1,4 @@
-.tangerine-regular h
+.tangerine-regular{
   font-family: "Tangerine", cursive;
   font-weight: 400;
   font-style: normal;
@@ -30,25 +30,23 @@
 	flex-direction: row;
 }
 
-#image{
-	display:flex;
-	margin: 8px;
-	flex: 1;
-	align-items: right;
-}
 
+#image{
+	display: flex;
+	flex:1;
+	justify-content: center;
+	align-items: center;
+}
 .header-item{
 	display:flex;
 	flex: 1;	
-	margin: 8px;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 }
 
 
 div{
-	margin-top: 170px;
-	margin-left: 20px;
+	margin-top: 110px;
 	margin-bottom:170px;
 	text-align: justify;
 }
